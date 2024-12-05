@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+    color: #000000; 
+  }
+  .nav a.active {
+    color: #a600ff; /* Bleu */
+  }
+  
+  
+  .kid-area {
+    display: flex;
+    align-items: center;
+    margin-right: auto; 
+  }
+  
+  .kid-area span {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 15px;
+  }
+  
+  .kid-area svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .nav {
+    background-color: #4eb1f7;
+    color: #fff;
+    padding: 18px;
+    display: flex;
+    align-items: center; 
+  }
+  
+  .nav a {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3em;
+  }
+  
+  
+  .hero-section {
+    position: relative;
+    width: 100%;
+    height: 91vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  
+  
+  
+  .hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(80%);
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero-content h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000; /* Noir */
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #000; /* Gris plus foncé */
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #2196f3; /* Bleu */
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cta-button:hover {
+    background-color: #1565c0; /* Bleu plus foncé au survol */
+  }
+  

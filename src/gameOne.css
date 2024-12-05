@@ -1,0 +1,77 @@
+.boxes{
+  background-color: lightgrey;
+  width: 100px;
+  border: 7px solid green;
+  padding: 5px;
+  margin: 6px;
+  justify-content: space-around;
+  flex-direction: row;
+}
+img {
+  border: 1px solid #73AD21;
+  border-radius: 4px;
+  padding: 20px;
+  width: 300px;
+  display: flex; 
+  flex-direction: row;
+  overflow: hidden;
+  height: 200px
+}
+.container {
+  width: fit-content;
+  border: 5px solid rgb(111,41,97);
+  border-radius: .5em;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+  min-height: 200px;
+  min-width: 600px;
+}
+.container1 {
+  width: calc(fit-content);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin: 7px;
+  line-height: 50px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 24px;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: #872394;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #5f0195;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  background-color: #872394;
+  font-size: 30px;
+}
+
+.button:active {
+  background-color: #872394;
+  box-shadow: 0 5px #5f0195;
+}
+
+.card_container{
+  min-width:150px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  margin-left: 18px;
+}
+.image_container{
+  max-height: 102px;
+  width: 102px;
+}
+.bold{
+  font-weight: 700;
+}
+

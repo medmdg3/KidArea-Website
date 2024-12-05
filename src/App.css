@@ -1,0 +1,41 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+.header {
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(72, 179, 215);
+  color: white;
+  font-size: 20px;
+}
+.NavigationLine{
+  float: center;
+  color: #3821ac;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  overflow: hidden;
+  background-color: #333;
+}
+.Footer {
+  text-align: center;
+  padding: 2px;
+  background-color: blue ;
+  color: white;
+}
+.right {
+  position: absolute;
+  right: 0px;
+  width: 20vh;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+.left {
+  position: absolute;
+  left: 0px;
+  width: 40vh;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
